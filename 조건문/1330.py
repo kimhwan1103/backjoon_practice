@@ -1,8 +1,4 @@
-str = []
-str = input().split
-
-num1 = str[1]
-num2 = str[2]
+num1, num2 = map(int, input().split())
 
 if num1 < num2:
     print("<")
